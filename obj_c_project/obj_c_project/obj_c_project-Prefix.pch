@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'obj_c_project' target in the 'obj_c_project' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
