@@ -10,6 +10,7 @@
 		1FA4EBBB176B841B0010CC40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA4EBBA176B841B0010CC40 /* Foundation.framework */; };
 		1FA4EBBE176B841B0010CC40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4EBBD176B841B0010CC40 /* main.m */; };
 		1FA4EBC2176B841B0010CC40 /* obj_c_project.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FA4EBC1176B841B0010CC40 /* obj_c_project.1 */; };
+		1FA4EBD9176BBBD40010CC40 /* ITunesFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4EBD8176BBBD40010CC40 /* ITunesFinder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,9 @@
 		1FA4EBBD176B841B0010CC40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FA4EBC0176B841B0010CC40 /* obj_c_project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "obj_c_project-Prefix.pch"; sourceTree = "<group>"; };
 		1FA4EBC1176B841B0010CC40 /* obj_c_project.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = obj_c_project.1; sourceTree = "<group>"; };
+		1FA4EBD7176BBBD40010CC40 /* ITunesFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITunesFinder.h; sourceTree = "<group>"; };
+		1FA4EBD8176BBBD40010CC40 /* ITunesFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesFinder.m; sourceTree = "<group>"; };
+		1FA4EBDA176C50A30010CC40 /* NSCopying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCopying.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 				1FA4EBBC176B841B0010CC40 /* obj_c_project */,
 				1FA4EBB9176B841B0010CC40 /* Frameworks */,
 				1FA4EBB8176B841B0010CC40 /* Products */,
+				1FA4EBBF176B841B0010CC40 /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +80,9 @@
 			children = (
 				1FA4EBBD176B841B0010CC40 /* main.m */,
 				1FA4EBC1176B841B0010CC40 /* obj_c_project.1 */,
-				1FA4EBBF176B841B0010CC40 /* Supporting Files */,
+				1FA4EBD7176BBBD40010CC40 /* ITunesFinder.h */,
+				1FA4EBD8176BBBD40010CC40 /* ITunesFinder.m */,
+				1FA4EBDA176C50A30010CC40 /* NSCopying.h */,
 			);
 			path = obj_c_project;
 			sourceTree = "<group>";
@@ -86,6 +93,7 @@
 				1FA4EBC0176B841B0010CC40 /* obj_c_project-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = obj_c_project;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FA4EBBE176B841B0010CC40 /* main.m in Sources */,
+				1FA4EBD9176BBBD40010CC40 /* ITunesFinder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
